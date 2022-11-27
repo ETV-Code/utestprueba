@@ -22,6 +22,8 @@ public class RegisteringUser implements Task {
             SendKeys.of("2002").into(Personal.YEAR),
 
             Click.on(Personal.NEXTLOCATION),
+
+            Click.on(Address.BG),
             Click.on(Address.BUTTONDEVICES),
 
             SendKeys.of("Windows").into(Devices.COMPUTER),
