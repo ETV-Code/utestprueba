@@ -14,9 +14,9 @@ public class RegisteringUser implements Task {
         actor.attemptsTo(
             Click.on(Home.REGISTER),
 
-            SendKeys.of("Emmanuel").into(Personal.FIRSTNAME),
-            SendKeys.of("Taborda").into(Personal.LASTNAME),
-            SendKeys.of("taborda@gmail.com").into(Personal.EMAIL),
+            SendKeys.of("Andres").into(Personal.FIRSTNAME),
+            SendKeys.of("Ramirez").into(Personal.LASTNAME),
+            SendKeys.of("ramirez@gmail.com").into(Personal.EMAIL),
             SendKeys.of("october").into(Personal.MONTH),
             SendKeys.of("23").into(Personal.DAY),
             SendKeys.of("2002").into(Personal.YEAR),
